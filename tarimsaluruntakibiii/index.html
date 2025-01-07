@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarımsal Ürün Takip Sistemi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        main {
+            padding: 2em;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card {
+            background-color: white;
+            margin: 1em;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 300px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            margin-top: 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tarımsal Ürün Takip Sistemi</h1>
+    </header>
+    <nav>
+        <a href="#">Ana Sayfa</a>
+        <a href="#urunler">Ürünler</a>
+        <a href="#musteriler">Müşteriler</a>
+        <a href="#satislar">Satışlar</a>
+        <a href="#iletisim">İletişim</a>
+    </nav>
+    <main>
+        <section id="urunler">
+            <h2>Ürünler</h2>
+            <div class="container">
+                <div class="card">
+                    <h3>Buğday</h3>
+                    <p>Kategori: Tahıl</p>
+                    <p>Stok: 500 KG</p>
+                    <p>Birim Fiyat: 10 TL</p>
+                </div>
+                <div class="card">
+                    <h3>Domates</h3>
+                    <p>Kategori: Sebze</p>
+                    <p>Stok: 200 KG</p>
+                    <p>Birim Fiyat: 15 TL</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="musteriler">
+            <h2>Müşteriler</h2>
+            <p>Müşteri bilgileri burada yer alacak.</p>
+        </section>
+
+        <section id="satislar">
+            <h2>Satışlar</h2>
+            <p>Satış bilgileri burada yer alacak.</p>
+        </section>
+
+        <section id="iletisim">
+            <h2>İletişim</h2>
+            <p>Bizimle iletişime geçmek için <a href="mailto:info@tarimtakip.com">info@tarimtakip.com</a> adresine e-posta gönderin.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Tarımsal Ürün Takip Sistemi. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
+
